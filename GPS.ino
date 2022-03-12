@@ -185,7 +185,7 @@ Serial.println("AT");
   //Send message
   Serial.println("AT+CMGF=1");
   delay(500);
-  Serial.println("AT+CMGS=\"+886931179909\"");//change the receiver phone number
+  Serial.println("AT+CMGS=\"+886*********\"");//change the receiver phone number
   delay(500);
   Serial.print("You are Here,");
   Serial.print("Latitude:");
