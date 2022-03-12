@@ -28,7 +28,7 @@ char GPS[41];
 char incomingByte;
 byte gsmDriverPin[2] = {
   2,3};//The default digital driver pins for the GSM and GPS mode
-unsigned char PhoneNum[24]={"AT+CMGS=\"+886931179909\""};
+unsigned char PhoneNum[24]={"AT+CMGS=\"+886*********\""};
 
 void setup()
 {    
